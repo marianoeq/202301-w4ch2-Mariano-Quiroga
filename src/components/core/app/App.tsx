@@ -1,10 +1,14 @@
+import { Form } from "../../Form/form";
+import { Header } from "../../../pages/header/header";
+import { Footer } from "../../../pages/footer/footer";
 import "./App.css";
-// import AppRouter  from "../app.router/app.router";
 
 export function App() {
   return (
     <div className="App">
-      <div>learn react</div>
+      <Header></Header>
+      <Form></Form>
+      <Footer></Footer>
     </div>
   );
 }
